@@ -1,0 +1,24 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: #6a5acd;
+  margin-left: 430px;
+}
+#Hello{
+  padding:40px;
+  background:#FFF;
+  width: 250px;
+  height:250px;
+  margin-left: 480px;
+}
+#rcorners1{
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+}
