@@ -1,24 +1,168 @@
-body {
-  background-color: lightblue;
-}
+-<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
 
-h1 {
-  color: #6a5acd;
-  margin-left: 430px;
-}
-#Hello{
-  padding:40px;
-  background:#FFF;
-  width: 250px;
-  height:250px;
-  margin-left: 480px;
-}
-#rcorners1{
+<h1>Welcome to my BiZaRrE website </h1>
+<div id="Hello">Hello my name is juan herrera and my major is finearts
+  and I also like to game but I would rather use up my time with a art piece.
+  And I know I'm talking alot but I want to test this out if it works
+  or not .......have a great day.....I'm getting better with this coding.
+  BYE :)
+
+
+ </div>
+<style>
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0000ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+body {
+ display: flex;
+   justify-content: center;
+   background: lightblue;
+
+ }
+ #rcorners1{
   border-radius: 25px;
   background: #73AD21;
   padding: 20px;
   width: 200px;
-  height: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 70px;
 }
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  height: 150px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  bottom: -485px;
+  border-width: 10px
+}
+
+.button:hover span {
+  padding-right: 25px;
+#button{
+  position: relative;
+  bottom:-1000px
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+#blank{
+ position: relative;
+ bottom:-990px
+}
+
+</style>
+</head>
+<body>
+  <style>
+  div {
+    border: 5px solid blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: purple;
+  }
+  </style>
+  <body>
+ #container{
+   position: relative;
+   top:100px;
+
+  <h2>Little more about me </h2>
+   width:500px;
+
+ }
+ #content-box{
+   background: #FFF;
+   padding:15px;
+   margin-bottom:15px;
+   border-color: yellow;
+
+  <div> As a kid a did every kind of art, I'm talking about pencil,Charcoal,paint,etc
+  Most of my art was on paper but I fell in love with digital art since your able to ctrl z
+to fix any mistake it has been my type of art style lately</div>
+
+<h2> Favorite Band</h2>
+<p id="rcorners1">One of the bands that I enjoy to here is queen, Some of the song I love
+is Somebody to love, Bohemian Rhapsody,We are the champions </p>
+
+ }
+ul{
+  position: relative;
+  list-style-type: none;
+  padding:0px;
+  display:flex;
+  Justify-content: left;
+
+</body>
+</html>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+}
+a{
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  background:#FFF;
+  padding: 15px;
+  margin-bottom:-2px;
+}
+
+a:hover, a:active {
+  background-color: blue;
+a:hover{
+  background:yellow;
+}
+#rcorners1{
+border-radius: 25px;
+background: #73AD21;
+padding: 20px;
+width: 200px;
+height: 150px;
+border: 20px:
+}
+</style>
+</head>
+<body>
+
+<h2>My Art</h2>
+<p>Click the link to see me art.....the blue button is useless</p>
+<a href="https://www.instagram.com/bizarrearts0/" target="_blank">My art</a>
+
+</body>
+</html>
+
+
+
+<button class="button" style="vertical-align:middle"><span>Hover over me </span></button>
+</body>
+</html>
 }
